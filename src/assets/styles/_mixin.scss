@@ -8,3 +8,8 @@
     display: flex;
     flex-direction: row;
 }
+
+@mixin icon-img {
+    width: 20px;
+    height: 20px;
+}
