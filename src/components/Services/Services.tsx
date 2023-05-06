@@ -6,12 +6,14 @@ import serviceData from '../../assets/data/serviceData';
 
 const Services = () => {
   return (
-    <Container className="services">
+    <Container>
       <Row>
         <Col>
-          {serviceData.map(item => {
-            return <ServiceItem item={item as any}></ServiceItem>
-          })}
+          <div className="services">
+            {serviceData.map(item => {
+              return <ServiceItem item={item as any}></ServiceItem>
+            })}
+          </div>
         </Col>
       </Row>
     </Container>

@@ -10,18 +10,17 @@
     width: 100%;
 
     span {
-        width: 33px;
-        height: 33px;
         background-color: $infoColor;
         color: white;
         @include flex-center;
         border-radius: 50%;
         i {
             font-size: 20px;
+            padding: 10px 12px;
         }
     }
     .content {
-        h3 {
+        h4 {
             font-size: 20px;
             font-weight: 600;
         }

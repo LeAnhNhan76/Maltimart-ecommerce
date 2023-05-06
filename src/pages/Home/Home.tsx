@@ -3,6 +3,7 @@ import './home.scss';
 import { Link } from 'react-router-dom';
 import heroImg from '../../assets/images/hero-img.png';
 import Services from '../../components/Services/Services';
+import ProductCard from '../../components/ProductCard/ProductCard';
 
 const Home = () => {
   const year = new Date().getFullYear();
@@ -30,6 +31,29 @@ const Home = () => {
         </Container>
       </div>
       <Services></Services>
+      <Container>
+        <Row>
+          <Col>
+            <section>
+              <h3 className='title-section'>Trending Products</h3>
+              <div className="items">
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+              </div>
+            </section>
+          </Col>
+        </Row>
+      </Container>
     </div>
   )
 }

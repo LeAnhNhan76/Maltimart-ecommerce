@@ -43,3 +43,11 @@
     color: unset;
   }
   
+
+  h3.title-section {
+    text-align: center;
+    text-transform: capitalize;
+    color: $primaryColor;
+    font-weight: 600;
+    margin: 30px auto;
+  }

@@ -1,6 +1,7 @@
 @use '../../assets/styles/index.scss' as *;
 
 .home {
+    width: 100%;
     .hero-section {
         background-color: $heroBg;
         .container {
@@ -28,7 +29,7 @@
                             border: none;
                             border-radius: 2px;
                             cursor: pointer;
-                            max-width: 170px;
+                            max-width: 150px;
                             text-align: center;
                         }
                         
@@ -42,6 +43,13 @@
                     }
                 }
             }
+        }
+    }
+
+    section {
+        .items {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
         }
     }
 }

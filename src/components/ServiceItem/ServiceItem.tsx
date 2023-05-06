@@ -18,7 +18,7 @@ const ServiceItem = (props: IServiceItemProps) => {
     <div className="service-item" style={{backgroundColor: item.bg}}>
         <span>< i className={item.icon}></i></span>
         <div className="content">
-            <h3>{item.title}</h3>
+            <h4>{item.title}</h4>
             <p>{item.subtitle}</p>
         </div>
     </div>

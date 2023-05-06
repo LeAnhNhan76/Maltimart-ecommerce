@@ -1,0 +1,30 @@
+.product-card {
+    padding: 22px;
+    position: relative;
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    h5 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    p {
+        font-size: 12px;
+    }
+    span {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    button {
+        position: absolute;
+        right: 0px;
+        bottom: -3px;
+        border: none;
+        background-color: transparent;
+        i {
+            font-size: 28px;
+        }
+    }
+}
