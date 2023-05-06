@@ -4,6 +4,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "remixicon/fonts/remixicon.css";
 import "bootstrap/dist/css/bootstrap.css";
+import '../src/assets/styles/global.scss';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
