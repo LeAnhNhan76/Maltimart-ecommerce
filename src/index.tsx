@@ -1,17 +1,20 @@
+import "bootstrap/dist/css/bootstrap.css";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import "remixicon/fonts/remixicon.css";
+import '../src/assets/styles/global.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import "remixicon/fonts/remixicon.css";
-import "bootstrap/dist/css/bootstrap.css";
-import '../src/assets/styles/global.scss';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
