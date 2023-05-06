@@ -2,6 +2,7 @@ import { Col, Container, Row } from 'reactstrap';
 import './home.scss';
 import { Link } from 'react-router-dom';
 import heroImg from '../../assets/images/hero-img.png';
+import Services from '../../components/Services/Services';
 
 const Home = () => {
   const year = new Date().getFullYear();
@@ -28,6 +29,7 @@ const Home = () => {
           </Row>
         </Container>
       </div>
+      <Services></Services>
     </div>
   )
 }

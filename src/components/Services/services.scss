@@ -1,0 +1,10 @@
+.container.services {
+    margin: 40px auto;
+    .row {
+        .col {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+        }
+    }
+}
