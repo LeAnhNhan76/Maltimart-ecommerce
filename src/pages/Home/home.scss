@@ -1,0 +1,47 @@
+@use '../../assets/styles/index.scss' as *;
+
+.home {
+    .hero-section {
+        background-color: $heroBg;
+        .container {
+            .row {
+                .col {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    .left {
+                        padding: 70px 0px 150px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        gap: 30px;
+                        h1 {
+                            text-transform: capitalize;
+                            max-width: 400px;
+                        }
+                        
+                        a {
+                            text-transform: uppercase;
+                            padding: 5px 10px;
+                            color: #fff;
+                            background-color: #202069;
+                            border: none;
+                            border-radius: 2px;
+                            cursor: pointer;
+                            max-width: 170px;
+                            text-align: center;
+                        }
+                        
+                        p:first-child {
+                            color: $primaryColor;
+                            font-weight: 600;
+                        }
+                    }
+                    .right {
+                        img {}
+                    }
+                }
+            }
+        }
+    }
+}
