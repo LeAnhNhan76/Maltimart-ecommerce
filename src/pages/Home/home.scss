@@ -47,9 +47,12 @@
     }
 
     section {
+        margin-toP: 50px;
         .items {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 17px;
+            row-gap: 17px;
         }
     }
 }

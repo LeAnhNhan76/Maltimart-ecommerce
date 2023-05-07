@@ -10,8 +10,8 @@ const Services = () => {
       <Row>
         <Col>
           <div className="services">
-            {serviceData.map(item => {
-              return <ServiceItem item={item as any}></ServiceItem>
+            {serviceData.map((item, index) => {
+              return <ServiceItem item={item as any} key={index}></ServiceItem>
             })}
           </div>
         </Col>

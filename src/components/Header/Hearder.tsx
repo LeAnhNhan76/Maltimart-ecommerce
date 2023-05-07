@@ -4,6 +4,7 @@ import logo from '../../assets/images/eco-logo.png';
 import userIcon from '../../assets/images/user-icon.png'
 import { Link, useLocation } from 'react-router-dom';
 import { Col, Container, Row } from 'reactstrap';
+import { useState } from 'react';
 
 const nav_links = [
   {
@@ -25,7 +26,8 @@ const nav_links = [
 
 const Hearder = () => {
   const location = useLocation();
-  console.log(location)
+  const [isOpenUserAction, setIsOpenUserAction] = useState(false);
+
   return (
     <header>
       <Container>
@@ -62,7 +64,11 @@ const Hearder = () => {
                   <i className="ri-shopping-bag-line"></i>
                   <span className='badge'>20</span>
                 </span>
-                <img src={userIcon} alt="" />
+                <img src={userIcon} alt=""  onClick={() => setIsOpenUserAction(!isOpenUserAction)}/>
+                {isOpenUserAction && <div className='user-action'>
+                  <Link to='/register'>Sign up</Link>
+                  <Link to='/login'>Login</Link>
+                </div>}
               </div>
             </div>
           </Col>

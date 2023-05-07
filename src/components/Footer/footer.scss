@@ -1,0 +1,57 @@
+@use '../../assets/styles/index.scss' as *;
+
+.footer {
+    margin-top: 50px;
+    padding-bottom: 10px;
+    color: #eee;
+    background-color: $darkInfoColor;
+    .container.main {
+        padding-top: 50px;
+        padding-bottom: 25px;
+        .row {
+            .col {
+                display: grid;
+                 grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+                .item {
+                    h3 {
+                        font-size: 14px;
+                        padding-bottom: 20px;
+                        text-transform: capitalize;
+                    }
+                    ul {
+                        padding: 0px;
+                        li {
+                            line-height: 28px;
+                            cursor: pointer;
+                        }
+                    }
+
+                    span, li {
+                        color: $smallTextColor;
+                        font-size: 12px;
+                        font-weight: 500;
+                        transition: all 0.2s ease;
+                    }
+
+                    li:hover {
+                        color: #e8e8e8;
+                    }
+                }
+
+                .item:first-child{
+                    h3 {
+                        font-weight: 700;
+                    }
+                }
+                
+            }
+        }
+    }
+    .bottom {
+        text-align: center;
+        color: $smallTextColor;
+        font-size: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+    }
+}

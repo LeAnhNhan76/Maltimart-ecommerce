@@ -20,7 +20,7 @@ const Home = () => {
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque distinctio asperiores a id possimus nemo tempore, nam odit quo iusto!
                 </p>
                 <Link to={'/shop'}>
-                  <a href=''>Shop now</a>
+                  Shop now
                 </Link>
               </div>
               <div className="right">
@@ -40,6 +40,40 @@ const Home = () => {
                 <ProductCard></ProductCard>
                 <ProductCard></ProductCard>
                 <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+              </div>
+            </section>
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col>
+            <section>
+              <h3 className='title-section'>Best sales</h3>
+              <div className="items">
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+                <ProductCard></ProductCard>
+              </div>
+            </section>
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col>
+            <section>
+              <h3 className='title-section'>New Arrivals</h3>
+              <div className="items">
                 <ProductCard></ProductCard>
                 <ProductCard></ProductCard>
                 <ProductCard></ProductCard>

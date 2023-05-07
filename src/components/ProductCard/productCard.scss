@@ -1,5 +1,4 @@
 .product-card {
-    padding: 22px;
     position: relative;
     img {
         width: 100%;
@@ -12,9 +11,10 @@
     }
     p {
         font-size: 12px;
+        margin-bottom: 7px;
     }
     span {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
     }
     button {
