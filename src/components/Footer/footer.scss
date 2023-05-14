@@ -1,7 +1,7 @@
 @use '../../assets/styles/index.scss' as *;
 
 .footer {
-    margin-top: 50px;
+    min-height: calc(100vh - 54vh - 70px);
     padding-bottom: 10px;
     color: #eee;
     background-color: $darkInfoColor;
